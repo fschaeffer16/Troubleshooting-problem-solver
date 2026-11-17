@@ -104,6 +104,21 @@ Reasoning, ASSUMPTION until tested:
 - Test for "normal": incident histories from each organization's own status pages for the past 12 months, counted per week, compared with this week.
 - Test for "shared trigger type": whether changes are the usual cause of outages in general, from an industry body's outage data, and whether mid-November is a heavy period for changes before holiday freezes.
 
+### Third round, pages read 2026-11-17 20:24 UTC
+
+- White House, Presidential Actions page (https://www.whitehouse.gov/presidential-actions/). VERIFIED. Entries dated Nov 12 and Nov 16 are nominations only. Nothing dated Nov 13, 14 or 15. No proclamation or order about a national emergency, air traffic control or the ground stop is listed. NOT FOUND on that page. Not checked: the Federal Register, and whether the page lags behind signing.
+- Amazon Web Services, own public event list (https://health.aws.amazon.com/public/events). VERIFIED. 11 events listed. Dates of start, UTC: Mar 1 and Mar 2 (Middle East regions, still open), Aug 19, Aug 21, Sep 3, Sep 21, Oct 4, Oct 30, Nov 6, Nov 11, Nov 15.
+- AWS, Nov 15: "signup errors, authentication issues, and connectivity issues in the US-EAST-1 Region" from 3:05 AM to 6:10 AM PST, with some load balancers affected until 6:21 AM. No root cause given. This incident falls inside the cluster window and was not in the news pages read.
+- AWS, Nov 11 to 12: API errors and launch failures in the Tokyo region, about 6 hours. AWS, Nov 6: launch failures in US-WEST-2, under 2 hours, cause given as "a subsystem that supports EBS Volumes."
+- AWS count by month from that list: Aug 2, Sep 2, Oct 2, Nov 3 in the first 15 days. How far back the list reaches: not checked.
+- Microsoft Azure, own status history (https://azure.status.microsoft/en-us/status/history/). VERIFIED. The page as downloaded shows two post incident reviews, both September 2026. Nothing for November. Microsoft's Outlook and Teams outage is a Microsoft 365 matter and is not on this page. Microsoft's own account of it: still NOT CHECKED.
+- National Weather Service, home page and news page. A statement on a website outage: NOT FOUND on either.
+- Uptime Institute: refused the download (403). Industry data on outage causes: NOT CHECKED.
+
+Frank, 2026-11-17, on the bank outages: "It was more than Chase Bank"
+
+- Seen so far: an earlier search summary named Chase, Bank of America, Wells Fargo and Zelle user reports on Monday, and said Bank of America stated its systems were normal. EXCERPT. The Fox page names Chase and Schwab. Which banks had confirmed outages, from the banks themselves: NOT CHECKED.
+
 ### What officials say about a link, from the Fox live page
 
 - DHS Secretary Mullin, on Fox: suggested AI could be partly to blame, a "ripple effect." Also said there is "no cyber threat that's taking place."
@@ -171,6 +186,8 @@ Ranked by the evidence read so far. None is proven.
 - 2026-11-17: Frank pasted the DHS release text. One web search for a formal national emergency proclamation: none found.
 
 - 2026-11-17 20:22 UTC: counted Google's own incident list by month and re-read Apple's status data. Results under Facts.
+
+- 2026-11-17 20:24 UTC: third round of shell downloads after Frank added five sites. Read: White House actions page, AWS event list, Azure status history, Weather Service home and news pages. Refused (403): uptimeinstitute.com.
 
 ## Options
 
