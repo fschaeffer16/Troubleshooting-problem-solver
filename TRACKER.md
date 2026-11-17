@@ -7,6 +7,6 @@ Each entry carries: the problem in one line, its file in problems/, status, the 
 ## Problems
 
 - Tech outages reported 2026-11-17. File: problems/tech-outages-2026-11-17.md
-  - Status: waiting on Frank
+  - Status: blocked
   - Next step: read both articles, then list their claims. Owner: the thread, once the articles are available.
-  - Waiting on: Frank. Either add the five official sites plus www.foxnews.com and www.cnn.com in the environment settings himself (the thread's request was rejected), or upload the pages.
+  - Waiting on: Frank. The seven sites are on the stored list but the session running on 2026-11-17 cannot open them. Either start a new session, or upload the pages.

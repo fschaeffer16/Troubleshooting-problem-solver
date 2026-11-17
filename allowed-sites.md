@@ -9,9 +9,9 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 ## Status
 
 - Last checked against the environment settings: 2026-11-17.
-- On now: 133 sites (125 baseline, 8 swap). The settings hold 135 entries because www.apple.com and www.pewresearch.org are each entered twice.
-- Wanted, not on: 7.
-- Cap: not checked. It shows only in the settings screen. 120 was recorded earlier for the EZ Voice environment.
+- On now: 140 sites (125 baseline, 15 swap). The settings hold 142 entries because www.apple.com and www.pewresearch.org are each entered twice.
+- Wanted, not on: 0.
+- Cap: not checked. It is at least 142, the number of entries held now. It shows only in the settings screen. 120 was recorded earlier for the EZ Voice environment.
 - Baseline is every site that was on the list at the first read on 2026-11-17. That grouping is the thread's choice, open to change by Frank.
 
 ## Master list
@@ -47,12 +47,12 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | business.google.com | baseline | yes | On the list before 2026-11-17 |
 | busplanner.com | baseline | yes | On the list before 2026-11-17 |
 | cdn.fldoe.org | baseline | yes | On the list before 2026-11-17 |
-| www.cisa.gov | swap | no | Tech outages problem. Approved by Frank, not yet added |
+| www.cisa.gov | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | www.clinicaltrials.gov | baseline | yes | On the list before 2026-11-17 |
 | clinicaltrials.gov | baseline | yes | On the list before 2026-11-17 |
 | www.cms.gov | baseline | yes | On the list before 2026-11-17 |
 | cnn.com | swap | yes | Added by Frank 2026-11-17 |
-| www.cnn.com | swap | no | Tech outages problem. Approved by Frank, not yet added |
+| www.cnn.com | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | coughdrop.com | baseline | yes | On the list before 2026-11-17 |
 | www.coughdrop.com | baseline | yes | On the list before 2026-11-17 |
 | www.cpalms.org | baseline | yes | On the list before 2026-11-17 |
@@ -61,7 +61,7 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | data.census.gov | baseline | yes | On the list before 2026-11-17 |
 | developers.facebook.com | baseline | yes | On the list before 2026-11-17 |
 | developers.openai.com | baseline | yes | On the list before 2026-11-17 |
-| www.dhs.gov | swap | no | Tech outages problem. Approved by Frank, not yet added |
+| www.dhs.gov | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | dl.dropboxusercontent.com | baseline | yes | On the list before 2026-11-17 |
 | documentation.prc-saltillo.com | baseline | yes | On the list before 2026-11-17 |
 | doi.org | baseline | yes | On the list before 2026-11-17 |
@@ -74,15 +74,15 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | eutils.ncbi.nlm.nih.gov | baseline | yes | On the list before 2026-11-17 |
 | ez-comm-tether.vercel.app | baseline | yes | On the list before 2026-11-17 |
 | ezspeak-tablet.vercel.app | baseline | yes | On the list before 2026-11-17 |
-| www.faa.gov | swap | no | Tech outages problem. Approved by Frank, not yet added |
+| www.faa.gov | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | www.facebook.com | baseline | yes | On the list before 2026-11-17 |
-| www.fbi.gov | swap | no | Tech outages problem. Approved by Frank, not yet added |
+| www.fbi.gov | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | www.fda.gov | baseline | yes | On the list before 2026-11-17 |
 | www.federalregister.gov | baseline | yes | On the list before 2026-11-17 |
 | www.fldoe.org | baseline | yes | On the list before 2026-11-17 |
 | www.forbesaac.com | baseline | yes | On the list before 2026-11-17 |
 | foxnews.com | swap | yes | Added by Frank 2026-11-17 |
-| www.foxnews.com | swap | no | Tech outages problem. Approved by Frank, not yet added |
+| www.foxnews.com | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | www.ftc.gov | baseline | yes | On the list before 2026-11-17 |
 | gatlinburg.ku.edu | baseline | yes | On the list before 2026-11-17 |
 | go.boarddocs.com | baseline | yes | On the list before 2026-11-17 |
@@ -136,7 +136,7 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | speakforyourself.org | baseline | yes | On the list before 2026-11-17 |
 | www.speakforyourself.org | baseline | yes | On the list before 2026-11-17 |
 | www.stats.govt.nz | baseline | yes | On the list before 2026-11-17 |
-| status.cloud.microsoft | swap | no | Tech outages problem. Approved by Frank, not yet added |
+| status.cloud.microsoft | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | www.stlucie.k12.fl.us | baseline | yes | On the list before 2026-11-17 |
 | store.google.com | baseline | yes | On the list before 2026-11-17 |
 | support.apple.com | baseline | yes | On the list before 2026-11-17 |
@@ -164,3 +164,5 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 - 2026-11-17: first read. 126 entries, 125 unique.
 - 2026-11-17: Frank added www.pewresearch.org (already on), www.axios.com, www.reddit.com, www.tmz.com, ground.news, ap.org, www.reuters.com, foxnews.com, cnn.com. 135 entries, 133 unique.
 - 2026-11-17: the thread asked to add www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov after Frank's "Go". Rejected by the environments service, no reason given. Nothing changed.
+- 2026-11-17: Frank added www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov, www.foxnews.com, www.cnn.com. 142 entries, 140 unique. Confirmed by reading the settings.
+- 2026-11-17: the session that was running when these were added still could not open them. See problems/tech-outages-2026-11-17.md, Tests run.

@@ -44,7 +44,7 @@ Search summaries, 2026-11-17. All EXCERPT. No source page was opened. News outle
   - Needed: the full text. Which network, who confirmed it, when it went down, the stated cause, and who is quoted.
   - Use: add its claims to the list and check each against the named agency's own statement.
 
-- Official pages needed, none on the allowed list: www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov. Approved by Frank 2026-11-17 ("Go"). Not yet on the list: the thread's request was rejected by the environments service.
+- Official pages needed, none on the allowed list: www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov. Approved by Frank 2026-11-17 ("Go"). Added by Frank 2026-11-17 and confirmed on the stored list. The running session still cannot open them.
 
 ## Causes considered
 
@@ -71,6 +71,11 @@ Not ranked. No cause has evidence that was opened and read.
   - foxnews.com, cnn.com (no "www"): failed with the same host-not-found error, though both are on the list. Cause not checked.
   - www.reuters.com, ap.org: failed with a different error, "unable to fetch from" the site. Cause not checked.
   - A direct connection test from the shell was denied by the session's permission system. Not run.
+
+- 2026-11-17: Frank said the seven sites "are in". Settings read: all seven are on the stored list, 142 entries.
+- 2026-11-17: fetch tests after that, twice, several minutes apart. www.foxnews.com, www.cnn.com, www.faa.gov, www.dhs.gov and status.cloud.microsoft all failed with the same host-not-found error as before.
+- 2026-11-17: the thread re-sent the seven sites through its own settings tool. Reply: already allowed, nothing to change. Fetches still failed after it.
+- Pattern seen: every site on the list when the session started opens (www.fda.gov tested). Every site added in the settings after the session started does not. Whether a new session would open them: NOT CHECKED.
 
 ## Options
 

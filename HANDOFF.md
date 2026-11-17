@@ -25,4 +25,4 @@ See DECISIONS.md.
 
 ## Blocked
 
-- No page for the outages problem can be opened yet. Details in problems/tech-outages-2026-11-17.md under Tests run.
+- Tech outages problem: the seven needed sites are on the allowed list (see allowed-sites.md), but the session that was running when they were added could not open them. A new session should test them first: open https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop. If it opens, read the pages listed in the problem file under Blocked sites and carry on from "Causes considered".
