@@ -8,3 +8,4 @@ Every ruling Frank makes, dated, in his words.
 - On pushing the CLAUDE.md commit: "Push commit now"
 - On pushing the memory files commit: "Push"
 - On pushing: "You can push without me. You cannot push solutions or builds of fixes or solutions without me"
+- On allowing www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov and www.cisa.gov: "Go"

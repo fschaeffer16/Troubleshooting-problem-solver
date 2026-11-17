@@ -44,7 +44,7 @@ Search summaries, 2026-11-17. All EXCERPT. No source page was opened. News outle
   - Needed: the full text. Which network, who confirmed it, when it went down, the stated cause, and who is quoted.
   - Use: add its claims to the list and check each against the named agency's own statement.
 
-- Official pages needed, none on the allowed list: www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov. Proposed to Frank 2026-11-17, not approved.
+- Official pages needed, none on the allowed list: www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov. Approved by Frank 2026-11-17 ("Go"). Not yet on the list: the thread's request was rejected by the environments service.
 
 ## Causes considered
 
@@ -62,6 +62,15 @@ Not ranked. No cause has evidence that was opened and read.
 - 2026-11-17: read the environment's network settings. Limited access, foxnews.com not listed.
 
 - 2026-11-17: two web searches. Results recorded under Facts as EXCERPT.
+
+- 2026-11-17: Frank said "Go" on the five official sites. The thread's request to add them was rejected by the environments service. No reason given. Nothing changed.
+- 2026-11-17: second read of the allowed list. Nine entries added since the first read, not by the thread: www.pewresearch.org, www.axios.com, www.reddit.com, www.tmz.com, ground.news, ap.org, www.reuters.com, foxnews.com, cnn.com. List now 135 entries.
+- 2026-11-17: fetch tests after that.
+  - www.fda.gov: opened. Control, shows the fetch tool works.
+  - www.foxnews.com, www.cnn.com: failed, host not allowed. The list holds foxnews.com and cnn.com without "www".
+  - foxnews.com, cnn.com (no "www"): failed with the same host-not-found error, though both are on the list. Cause not checked.
+  - www.reuters.com, ap.org: failed with a different error, "unable to fetch from" the site. Cause not checked.
+  - A direct connection test from the shell was denied by the session's permission system. Not run.
 
 ## Options
 

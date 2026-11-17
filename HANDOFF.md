@@ -9,11 +9,11 @@ A problem solver for Frank. The rules are in CLAUDE.md. Read it first.
 - SESSIONS.md: a dated review of every session.
 - DECISIONS.md: Frank's rulings, dated, in his words.
 - LEARNINGS.md: mistakes made and the lesson.
-- allowed-sites.md: not created. Checked 2026-11-17: this session runs in the "Default" environment, limited access, 126 entries on the allowed list (125 unique). The list is shared with other work. Creating the master list is not yet proposed to or approved by Frank.
+- allowed-sites.md: not created. Checked 2026-11-17: this session runs in the "Default" environment, limited access, 135 entries on the allowed list at the second read. The list is shared with other work. Creating the master list is not yet proposed to or approved by Frank.
 
 ## Problems in progress
 
-- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Blocked. The Fox News and CNN articles Frank gave could not be opened. Frank's position: "I don't believe all these outages are a coincidence". Search summaries only so far, nothing opened and read. Five official sites proposed for the allowed list, not approved.
+- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Blocked. The Fox News and CNN articles Frank gave could not be opened. Frank's position: "I don't believe all these outages are a coincidence". Search summaries only so far, nothing opened and read. Five official sites approved by Frank but not added: the environments service rejected the thread's request. See the problem file, Tests run.
 
 ## Standing rulings
 
@@ -23,4 +23,4 @@ See DECISIONS.md.
 
 ## Blocked
 
-- www.foxnews.com and www.cnn.com are not on the allowed list. Frank must allow them or upload the pages.
+- No page for the outages problem can be opened yet. Details in problems/tech-outages-2026-11-17.md under Tests run.
