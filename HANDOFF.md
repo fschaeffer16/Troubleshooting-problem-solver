@@ -21,6 +21,7 @@ See DECISIONS.md.
 
 - 2026-11-17, pushing: "You can push without me. You cannot push solutions or builds of fixes or solutions without me"
 - 2026-11-17, Reddit and TMZ: "You can use Reddit and TMZ you just have to face check them"
+- 2026-11-17, site requests: "When you want sites added give them to me in code formatting"
 
 ## Blocked
 

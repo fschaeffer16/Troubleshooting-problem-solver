@@ -75,6 +75,7 @@ The thread carries on with every part of the work that does not depend on that p
 - Under limited access, keep a master list in the repository (allowed-sites.md): every site ever allowed, never deleted, with which ones are defaults that always go back on, which are on now, and a dated log of every swap.
 - When the list is full and a new site is needed, propose the swap to Frank (which sites come off, which go on, and for which problem), log it, and put the defaults back when that research ends.
 - Changes to the allowed sites are Frank's to approve. The thread proposes; it never changes them on its own.
+- Rule from Frank, 2026-11-17: "When you want sites added give them to me in code formatting"
 - Rule from Frank, 2026-11-17: "Also there is a limit on allowed websites so keep all of them listed and sorted in a separate place. For instance have a number of "baseline" sites that are your default lists of sites if that makes sense and when we hit the limit just swap them out and out then back as needed. Just make sure the running list is kept sorted and up to date"
 
 ## When access is missing

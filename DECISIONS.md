@@ -11,3 +11,4 @@ Every ruling Frank makes, dated, in his words.
 - On allowing www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov and www.cisa.gov: "Go"
 - On the allowed-sites list: "Also there is a limit on allowed websites so keep all of them listed and sorted in a separate place. For instance have a number of "baseline" sites that are your default lists of sites if that makes sense and when we hit the limit just swap them out and out then back as needed. Just make sure the running list is kept sorted and up to date"
 - On Reddit and TMZ as sources: "You can use Reddit and TMZ you just have to face check them"
+- On asking for sites to be added: "When you want sites added give them to me in code formatting"
