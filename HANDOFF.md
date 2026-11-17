@@ -9,7 +9,7 @@ A problem solver for Frank. The rules are in CLAUDE.md. Read it first.
 - SESSIONS.md: a dated review of every session.
 - DECISIONS.md: Frank's rulings, dated, in his words.
 - LEARNINGS.md: mistakes made and the lesson.
-- allowed-sites.md: not created. Checked 2026-11-17: this session runs in the "Default" environment, limited access, 135 entries on the allowed list at the second read. The list is shared with other work. Creating the master list is not yet proposed to or approved by Frank.
+- allowed-sites.md: the master list of allowed sites for the "Default" environment, sorted, with baseline and swap sites and a swap log. Keep it current after every change.
 
 ## Problems in progress
 
