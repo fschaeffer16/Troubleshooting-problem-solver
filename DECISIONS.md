@@ -15,3 +15,4 @@ Every ruling Frank makes, dated, in his words.
 - On news sites: "My sites were an attempt to give you access to news. You can research reliable tech news sites, science news sites, health news study sites, geopolitical sites, whatever you need for information."
 - On spin and conspiracy theories: "You are here to dig into problems, eliminate political spin and conspiracy theories... now notice I did not say to ignore spin or conspiracy theories. They need to sometimes be tested before discounted to see if maybe they were born from a small slice of truth that we need to pull and research more."
 - On downloading pages through the shell: "You have my OK for shell downloads"
+- On removing the two duplicate entries and www.lingraphica.com from the allowed list: "Go on the list clean-up"

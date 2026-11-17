@@ -29,4 +29,4 @@ See DECISIONS.md.
 ## Blocked
 
 - Reading pages: the page-reading tool (WebFetch) fails on sites added during the 2026-11-17 session. Shell downloads (curl) work and Frank approved them that day. www.dhs.gov, www.nsa.gov and www.jpmorganchase.com refuse shell downloads (403). status.cloud.microsoft needs a browser.
-- allowed-sites.md has a list check dated 2026-11-17. No clean-up approved yet.
+- allowed-sites.md has a list check dated 2026-11-17. Frank approved the clean-up. The thread cannot change the allowed list: both changes it sent were rejected by the environments service. Frank makes the changes in the settings; the thread reads the list and updates allowed-sites.md.
