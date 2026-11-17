@@ -19,6 +19,8 @@ A problem solver for Frank. The rules are in CLAUDE.md. Read it first.
 
 See DECISIONS.md.
 
+- 2026-11-17, pushing: "You can push without me. You cannot push solutions or builds of fixes or solutions without me"
+
 ## Blocked
 
 - www.foxnews.com and www.cnn.com are not on the allowed list. Frank must allow them or upload the pages.

@@ -148,9 +148,10 @@ The review is honest. Something unchecked is reported as unchecked, and a failur
 
 - Start: read CLAUDE.md, HANDOFF.md, TRACKER.md, the last entry in SESSIONS.md, DECISIONS.md and LEARNINGS.md before asking Frank anything.
 - During: update the problem file, TRACKER.md and HANDOFF.md as the work moves, in the same commit as the work.
-- End: write the session review, commit it, and tell Frank what is waiting for his push.
+- End: write the session review, commit it, and push it. See the Git rule dated 2026-11-17.
 
 ## Git
 
-- Commit work as it is done. Push only when Frank says push.
+- Commit work as it is done.
+- Rule from Frank, 2026-11-17: "You can push without me. You cannot push solutions or builds of fixes or solutions without me" This replaces the earlier rule, "Push only when Frank says push."
 - This thread is separate from the EZ Voice business. It does not read or write the EZ Voice repositories or notices.
