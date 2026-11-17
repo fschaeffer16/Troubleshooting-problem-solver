@@ -9,9 +9,9 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 ## Status
 
 - Last checked against the environment settings: 2026-11-17.
-- On now: 140 sites (125 baseline, 15 swap). The settings hold 142 entries because www.apple.com and www.pewresearch.org are each entered twice.
+- On now: 146 sites (125 baseline, 21 swap). The settings hold 148 entries because www.apple.com and www.pewresearch.org are each entered twice.
 - Wanted, not on: 0.
-- Cap: not checked. It is at least 142, the number of entries held now. It shows only in the settings screen. 120 was recorded earlier for the EZ Voice environment.
+- Cap: not checked. It is at least 148, the number of entries held now. It shows only in the settings screen. 120 was recorded earlier for the EZ Voice environment.
 - Baseline is every site that was on the list at the first read on 2026-11-17. That grouping is the thread's choice, open to change by Frank.
 
 ## Master list
@@ -26,6 +26,7 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | ads.tiktok.com | baseline | yes | On the list before 2026-11-17 |
 | www.anthropic.com | baseline | yes | On the list before 2026-11-17 |
 | ap.org | swap | yes | Added by Frank 2026-11-17 |
+| www.ap.org | swap | yes | News. Added by Frank 2026-11-17. ap.org forwards here |
 | aphasia.com | baseline | yes | On the list before 2026-11-17 |
 | api.census.gov | baseline | yes | On the list before 2026-11-17 |
 | api.crossref.org | baseline | yes | On the list before 2026-11-17 |
@@ -87,10 +88,12 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | gatlinburg.ku.edu | baseline | yes | On the list before 2026-11-17 |
 | go.boarddocs.com | baseline | yes | On the list before 2026-11-17 |
 | goboardmaker.com | baseline | yes | On the list before 2026-11-17 |
+| www.google.com | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | www.govinfo.gov | baseline | yes | On the list before 2026-11-17 |
 | ground.news | swap | yes | Added by Frank 2026-11-17 |
 | help.openai.com | baseline | yes | On the list before 2026-11-17 |
 | herecomesthebus.com | baseline | yes | On the list before 2026-11-17 |
+| homeland.house.gov | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | hub.myezvoice.com | baseline | yes | On the list before 2026-11-17 |
 | hub.thinksmartbox.com | baseline | yes | On the list before 2026-11-17 |
 | info.fldoe.org | baseline | yes | On the list before 2026-11-17 |
@@ -98,6 +101,8 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | itunes.apple.com | baseline | yes | On the list before 2026-11-17 |
 | www.jabbla.com | baseline | yes | On the list before 2026-11-17 |
 | journals.sagepub.com | baseline | yes | On the list before 2026-11-17 |
+| www.jpmorganchase.com | swap | yes | Tech outages problem. Added by Frank 2026-11-17. Refused shell download (403) |
+| www.l3harris.com | swap | yes | Tech outages problem. Added by Frank 2026-11-17 |
 | lampwflapp.com | baseline | yes | On the list before 2026-11-17 |
 | lingraphica.com | baseline | yes | On the list before 2026-11-17 |
 | www.lingraphica.com | baseline | yes | On the list before 2026-11-17 |
@@ -109,6 +114,7 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | www.nature.com | baseline | yes | On the list before 2026-11-17 |
 | www.ncbi.nlm.nih.gov | baseline | yes | On the list before 2026-11-17 |
 | newsroom.tiktok.com | baseline | yes | On the list before 2026-11-17 |
+| www.nsa.gov | swap | yes | Tech outages problem. Added by Frank 2026-11-17. Refused shell download (403) |
 | onlinelibrary.wiley.com | baseline | yes | On the list before 2026-11-17 |
 | www.ons.gov.uk | baseline | yes | On the list before 2026-11-17 |
 | openai.com | baseline | yes | On the list before 2026-11-17 |
@@ -190,3 +196,4 @@ Test: one request to the home page of each of the 140 sites, from the session's 
 - 2026-11-17: the thread asked to add www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov after Frank's "Go". Rejected by the environments service, no reason given. Nothing changed.
 - 2026-11-17: Frank added www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov, www.foxnews.com, www.cnn.com. 142 entries, 140 unique. Confirmed by reading the settings.
 - 2026-11-17: the session's page-reading tool could not open the newly added sites. Correction, same day: the session's shell could reach them (www.foxnews.com, www.cnn.com, www.faa.gov and status.cloud.microsoft answered 200). So the sites are allowed in the running session. The failure is in the page-reading tool.
+- 2026-11-17: Frank added www.nsa.gov, www.l3harris.com, www.jpmorganchase.com, www.google.com, homeland.house.gov and www.ap.org. 148 entries, 146 unique. Confirmed by reading the settings.

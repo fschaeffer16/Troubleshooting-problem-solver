@@ -13,7 +13,7 @@ A problem solver for Frank. The rules are in CLAUDE.md. Read it first.
 
 ## Problems in progress
 
-- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Frank's position: "I don't believe all these outages are a coincidence". FAA Q&A, CNN article and Fox live page read. Causes ranked, none proven. Next: Microsoft, NSA, Chase, Apple and Google at their own sources.
+- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Frank's position: "I don't believe all these outages are a coincidence". FAA Q&A, CNN article and Fox live page read. Causes ranked, none proven. L3Harris, Apple, Google and House committee sources also read. Next: Microsoft, NSA and Chase at their own sources (their sites refuse downloads), and the Nov 18 House hearing.
 
 ## Standing rulings
 
@@ -28,5 +28,5 @@ See DECISIONS.md.
 
 ## Blocked
 
-- Reading pages: the page-reading tool (WebFetch) fails on sites added during the 2026-11-17 session. Shell downloads (curl) work and Frank approved them that day. www.dhs.gov refuses shell downloads (403). status.cloud.microsoft needs a browser.
+- Reading pages: the page-reading tool (WebFetch) fails on sites added during the 2026-11-17 session. Shell downloads (curl) work and Frank approved them that day. www.dhs.gov, www.nsa.gov and www.jpmorganchase.com refuse shell downloads (403). status.cloud.microsoft needs a browser.
 - allowed-sites.md has a list check dated 2026-11-17. No clean-up approved yet.
