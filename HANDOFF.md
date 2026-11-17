@@ -25,4 +25,5 @@ See DECISIONS.md.
 
 ## Blocked
 
-- Tech outages problem: the seven needed sites are on the allowed list (see allowed-sites.md), but the session that was running when they were added could not open them. A new session should test them first: open https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop. If it opens, read the pages listed in the problem file under Blocked sites and carry on from "Causes considered".
+- Tech outages problem: the needed sites are on the allowed list. On 2026-11-17 the page-reading tool (WebFetch) could not open them, but shell requests reached www.foxnews.com, www.cnn.com, www.faa.gov and status.cloud.microsoft. www.dhs.gov, www.fbi.gov and www.cisa.gov refused the shell request (403). Downloading the article pages from the shell was denied by the permission system. A new session should try the page-reading tool first on https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop.
+- allowed-sites.md has a list check dated 2026-11-17 with duplicates, one broken site and forwarding sites. No clean-up approved yet.

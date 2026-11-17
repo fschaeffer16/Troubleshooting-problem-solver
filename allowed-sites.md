@@ -159,10 +159,34 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | www12.statcan.gc.ca | baseline | yes | On the list before 2026-11-17 |
 | www.youtube.com | baseline | yes | On the list before 2026-11-17 |
 
+## List check 2026-11-17
+
+Test: one request to the home page of each of the 140 sites, from the session's shell. A home page test only. It does not show whether deeper pages work.
+
+- Duplicate entries in the settings: www.apple.com (twice), www.pewresearch.org (twice).
+- Broken: www.lingraphica.com. Its security certificate does not match the name, tested three times. lingraphica.com without "www" works.
+- No site failed to answer apart from that one.
+- Answered but refused the test request (codes 401, 403, 406), 23 sites: europepmc.org, go.boarddocs.com, help.openai.com, herecomesthebus.com, journals.sagepub.com, onlinelibrary.wiley.com, openai.com, platform.openai.com, pubs.asha.org, speakforyourself.org, www.axios.com, www.cisa.gov, www.dhs.gov, www.fbi.gov, www.fldoe.org, www.ftc.gov, www.reddit.com, www.reuters.com, www.safefleet.net, www.speakforyourself.org, www.synovia.com, www.tandfonline.com, www12.statcan.gc.ca. These sites are alive. Whether they refuse every automated visit: not checked.
+- Forward to a site that is not on the list:
+  - ap.org goes to www.ap.org
+  - api.census.gov goes to www.census.gov
+  - hub.thinksmartbox.com goes to hub.smartboxaac.com
+  - www.nature.com goes to idp.nature.com
+  - www.ecfr.gov and www.federalregister.gov go to unblock.federalregister.gov, a page for blocked automated visits
+  - doi.org goes to www.doi.org and api.semanticscholar.org goes to www.semanticscholar.org, home page only
+- Forward to a site already on the list:
+  - goboardmaker.com goes to us.tobiidynavox.com
+  - thinksmartbox.com goes to smartboxaac.com
+  - www.thinkwithgoogle.com goes to business.google.com
+  - www.prc-saltillo.com goes to prc-saltillo.com
+  - itunes.apple.com goes to www.apple.com
+  - support.tiktok.com goes to www.tiktok.com
+- Nothing was removed or changed. Changes are Frank's to approve.
+
 ## Swap log
 
 - 2026-11-17: first read. 126 entries, 125 unique.
 - 2026-11-17: Frank added www.pewresearch.org (already on), www.axios.com, www.reddit.com, www.tmz.com, ground.news, ap.org, www.reuters.com, foxnews.com, cnn.com. 135 entries, 133 unique.
 - 2026-11-17: the thread asked to add www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov after Frank's "Go". Rejected by the environments service, no reason given. Nothing changed.
 - 2026-11-17: Frank added www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov, www.foxnews.com, www.cnn.com. 142 entries, 140 unique. Confirmed by reading the settings.
-- 2026-11-17: the session that was running when these were added still could not open them. See problems/tech-outages-2026-11-17.md, Tests run.
+- 2026-11-17: the session's page-reading tool could not open the newly added sites. Correction, same day: the session's shell could reach them (www.foxnews.com, www.cnn.com, www.faa.gov and status.cloud.microsoft answered 200). So the sites are allowed in the running session. The failure is in the page-reading tool.

@@ -9,4 +9,4 @@ Each entry carries: the problem in one line, its file in problems/, status, the 
 - Tech outages reported 2026-11-17. File: problems/tech-outages-2026-11-17.md
   - Status: blocked
   - Next step: read both articles, then list their claims. Owner: the thread, once the articles are available.
-  - Waiting on: Frank. The seven sites are on the stored list but the session running on 2026-11-17 cannot open them. Either start a new session, or upload the pages.
+  - Waiting on: Frank. The sites are allowed but the page-reading tool cannot open them and a shell download was denied. Either allow shell downloads, start a new session, or upload the pages. Also his decision on the allowed-list clean-up.

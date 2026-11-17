@@ -77,6 +77,9 @@ Not ranked. No cause has evidence that was opened and read.
 - 2026-11-17: the thread re-sent the seven sites through its own settings tool. Reply: already allowed, nothing to change. Fetches still failed after it.
 - Pattern seen: every site on the list when the session started opens (www.fda.gov tested). Every site added in the settings after the session started does not. Whether a new session would open them: NOT CHECKED.
 
+- 2026-11-17, correction: during a check of the whole allowed list, home page requests from the session's shell reached www.foxnews.com, www.cnn.com, www.faa.gov and status.cloud.microsoft (code 200). www.dhs.gov, www.fbi.gov and www.cisa.gov answered 403, refused. So the new sites are allowed in this session. Only the page-reading tool fails on them. The earlier pattern note is wrong on that point.
+- 2026-11-17: an attempt to download the article pages from the shell was denied by the session's permission system. Not run. Frank to decide.
+
 ## Options
 
 None yet.
