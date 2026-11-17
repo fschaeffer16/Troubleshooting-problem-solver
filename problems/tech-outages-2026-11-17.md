@@ -10,7 +10,8 @@ Second link handed over 2026-11-17: https://www.cnn.com/2026/11/17/politics/high
 
 ## Open gaps
 
-- Which statement is believed to be false, and who made it. Not yet asked and answered.
+- Answered 2026-11-17. Frank's words: "I don't believe all these outages are a coincidence"
+- The question to settle: do the outages share a cause, or are they separate.
 - The article has not been read. See blocked sites.
 
 ## Facts
@@ -18,7 +19,18 @@ Second link handed over 2026-11-17: https://www.cnn.com/2026/11/17/politics/high
 - The link's address contains the words: tech outages, microsoft, banks, faa, fbi, 11-17-26. VERIFIED (read from the link itself). This says what the page is about. It does not confirm that anything happened.
 - The CNN link's address contains the words: politics, highly classified national security communications network goes down, 2026/11/17. VERIFIED (read from the link itself). It does not confirm that anything happened.
 - Whether the two links describe the same event: NOT CHECKED.
-- Everything else: NOT CHECKED.
+
+Search summaries, 2026-11-17. All EXCERPT. No source page was opened. News outlets are not sources under the rules; they are listed only to show where a claim was seen.
+
+- Microsoft: Outlook and Teams disruption, about Nov 12 to 14. Incident number MO1550821. Stated cause: a problem during a network capacity upgrade. Seen in: learn.microsoft.com community threads (not a source), news reports. Microsoft's own statement: not opened.
+- FAA: nationwide ground stop Nov 13. Air traffic resumed 8:15 p.m. that day. About 12,462 flights canceled. FAA says no indication of a cyberattack or outside actor. Seen in: search summary of https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop
+- FAA cause reported as a faulty router installed the week before, router installs paused, 17 of 22 en route centers affected. Seen in: news reports only.
+- DHS release dated Nov 13 on a White House briefing about the ground stop: https://www.dhs.gov/news/2026/11/13/icymi-secretary-mullin-and-secretary-duffy-address-nationwide-faa-ground-stop-all
+- FBI cyber staff reported to be helping the FAA investigation. Seen in: news reports only.
+- Banks: Chase, Bank of America, Wells Fargo and Zelle login problems reported Monday Nov 16. One report cites an FBI official saying a JPMorgan Chase software release was the cause. Another says Bank of America stated its systems were normal. Seen in: news reports only.
+- Classified network: one outlet names it as an NSA internal network. CNN headline says a highly classified national security communications network went down. Seen in: news reports only.
+- Officials, including the DHS Secretary, are reported as saying there is no cyber threat and no evidence the incidents are connected. Seen in: news reports only.
+- No official statement dated Nov 17 was found by a search limited to faa.gov, fbi.gov, cisa.gov, microsoft.com, defense.gov, federalreserve.gov, dhs.gov and whitehouse.gov. NOT FOUND.
 
 ## Blocked sites
 
@@ -32,14 +44,24 @@ Second link handed over 2026-11-17: https://www.cnn.com/2026/11/17/politics/high
   - Needed: the full text. Which network, who confirmed it, when it went down, the stated cause, and who is quoted.
   - Use: add its claims to the list and check each against the named agency's own statement.
 
+- Official pages needed, none on the allowed list: www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov. Proposed to Frank 2026-11-17, not approved.
+
 ## Causes considered
 
-None yet.
+Not ranked. No cause has evidence that was opened and read.
+
+1. Separate causes, as officials are reported to say. For: each has its own reported cause (Microsoft upgrade, FAA router, Chase release). Against: none read at the source yet. Test: read each organization's own incident statement and compare cause, timing and equipment.
+2. A shared technical cause, such as a common vendor, network carrier or equipment. For: none yet. Against: none yet. Test: identify the vendor and carrier behind each failure from the organizations' own reports.
+3. A deliberate attack. For: none yet. Against: FAA statement, per search summary, says no indication of one. Test: CISA, FBI and FAA statements, and any later incident report or inspector general review.
+4. Some incidents linked, others not. Test: same as 1 and 2, pair by pair.
+5. Ordinary outages getting more notice because of the big ones. ASSUMPTION, reasoning only. Test: compare the count of outages in this week with the organizations' own incident histories for normal weeks.
 
 ## Tests run
 
 - 2026-11-17: tried to open the article. Failed, host not allowed.
 - 2026-11-17: read the environment's network settings. Limited access, foxnews.com not listed.
+
+- 2026-11-17: two web searches. Results recorded under Facts as EXCERPT.
 
 ## Options
 

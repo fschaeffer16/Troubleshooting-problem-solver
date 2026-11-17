@@ -7,6 +7,6 @@ Each entry carries: the problem in one line, its file in problems/, status, the 
 ## Problems
 
 - Tech outages reported 2026-11-17. File: problems/tech-outages-2026-11-17.md
-  - Status: blocked
+  - Status: waiting on Frank
   - Next step: read both articles, then list their claims. Owner: the thread, once the articles are available.
-  - Waiting on: Frank, for the articles (allow www.foxnews.com and www.cnn.com, or upload both pages), and for which statement he believes is false.
+  - Waiting on: Frank, for the articles (allow www.foxnews.com and www.cnn.com, or upload both pages). Also his go on allowing www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov and www.cisa.gov.

@@ -13,7 +13,7 @@ A problem solver for Frank. The rules are in CLAUDE.md. Read it first.
 
 ## Problems in progress
 
-- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Blocked. The Fox News and CNN articles Frank gave could not be opened. Nothing about the event has been verified.
+- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Blocked. The Fox News and CNN articles Frank gave could not be opened. Frank's position: "I don't believe all these outages are a coincidence". Search summaries only so far, nothing opened and read. Five official sites proposed for the allowed list, not approved.
 
 ## Standing rulings
 
