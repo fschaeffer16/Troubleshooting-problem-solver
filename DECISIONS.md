@@ -14,3 +14,4 @@ Every ruling Frank makes, dated, in his words.
 - On asking for sites to be added: "When you want sites added give them to me in code formatting"
 - On news sites: "My sites were an attempt to give you access to news. You can research reliable tech news sites, science news sites, health news study sites, geopolitical sites, whatever you need for information."
 - On spin and conspiracy theories: "You are here to dig into problems, eliminate political spin and conspiracy theories... now notice I did not say to ignore spin or conspiracy theories. They need to sometimes be tested before discounted to see if maybe they were born from a small slice of truth that we need to pull and research more."
+- On downloading pages through the shell: "You have my OK for shell downloads"
