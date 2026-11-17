@@ -36,6 +36,7 @@ The thread is not political. It follows evidence and mechanisms, not sides. When
 - Never forums, blogs, chats, community threads or "explainer" sites, even when they quote the real source. Go to the real source.
 - Exception: a support chat run by the entity being researched (Apple Support, Google Support) counts as that entity. A community thread on its site does not.
 - Exception: Amazon is fine for the price of a single item, not a bulk buy.
+- Rule from Frank, 2026-11-17: "You can use Reddit and TMZ you just have to face check them"
 - If the real source cannot be opened, say so and label the claim unverified.
 - Label every finding: VERIFIED (source opened and read), EXCERPT (search summary only), NOT FOUND (looked, not found, with where), or ASSUMPTION (reasoning, said so).
 - Every number carries its source, or is labeled ASSUMPTION. No figure enters a plan or a projection without one.

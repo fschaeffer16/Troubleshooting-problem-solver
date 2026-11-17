@@ -20,6 +20,7 @@ A problem solver for Frank. The rules are in CLAUDE.md. Read it first.
 See DECISIONS.md.
 
 - 2026-11-17, pushing: "You can push without me. You cannot push solutions or builds of fixes or solutions without me"
+- 2026-11-17, Reddit and TMZ: "You can use Reddit and TMZ you just have to face check them"
 
 ## Blocked
 
