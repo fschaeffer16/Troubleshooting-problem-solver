@@ -65,6 +65,25 @@ Source: https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answer
 - www.nsa.gov press page: refused the download (403). NSA statement on the record: NOT CHECKED.
 - www.jpmorganchase.com newsroom: refused the download (403). Chase's stated cause: NOT CHECKED.
 
+### DHS release of Nov 13, text supplied by Frank
+
+Source: the DHS page, pasted by Frank 2026-11-17. The thread did not open the page. Its title and date match the search result seen earlier. Copy saved in problems/evidence/tech-outages-dhs-release-2026-11-13.txt.
+
+- Timing: the briefing was Friday evening, Nov 13, while the ground stop was in effect or just lifted.
+- Mullin: "We have seen zero evidence that this is a cyberattack or an SI attack." Said the same evening. The FAA's page two days later says the root cause is still under investigation.
+- Mullin on the cause: "our air traffic control system is outdated and it hasn't been a priority from Congress." The release does not mention the new router or the contractor's work.
+- Mullin: "The President has declared this a national emergency, and now we have to have Congress act and fund it."
+- Mullin: "We have all of our assets, be it from DOW, to CISA, to all of our NOCs ... NSA is working with us."
+- A formal emergency proclamation: NOT FOUND in one web search. News reports differ on who declared it. No proclamation number or text seen. EXCERPT only. The White House site and the Federal Register have not been read.
+- News reports, search summary only: Mullin and Duffy asked Congress for US$50 billion for the air traffic control system; the President asked Congress for funding on Nov 15. EXCERPT.
+
+Observations, reasoning only:
+
+- "Zero evidence" on the first evening means none had been found by then. It is not a finding that an attack was ruled out.
+- The release blames age and funding. The FAA's own page says the trigger was a new router being installed. Both can be true: an old network that could not absorb a fault from new equipment. The release gives only one half.
+- On Nov 13 Mullin said zero evidence of an "SI attack." On Nov 16 he suggested AI could be partly to blame through a "ripple effect" (Fox). Those are different claims, attack versus accident, but his account moved.
+- On Nov 13 the NSA was "working with us" on the FAA event. On Nov 17 the NSA's own network was reported down, and Fox reports DHS is "not involved" in that. No evidence connects the two. Noted as a question, not a finding.
+
 ### What officials say about a link, from the Fox live page
 
 - DHS Secretary Mullin, on Fox: suggested AI could be partly to blame, a "ripple effect." Also said there is "no cyber threat that's taking place."
@@ -128,6 +147,8 @@ Ranked by the evidence read so far. None is proven.
 - 2026-11-17: Frank gave his OK for shell downloads. Downloaded and read: the FAA Q&A, the CNN article, the Fox live page. www.dhs.gov refused the download (403). status.cloud.microsoft returned a page with no content.
 
 - 2026-11-17 18:35 UTC: second round of shell downloads after Frank added six sites. Read: L3Harris statement, Apple status data, Google status data, House committee site. Refused (403): www.nsa.gov, www.jpmorganchase.com.
+
+- 2026-11-17: Frank pasted the DHS release text. One web search for a formal national emergency proclamation: none found.
 
 ## Options
 
