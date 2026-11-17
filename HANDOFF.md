@@ -22,6 +22,8 @@ See DECISIONS.md.
 - 2026-11-17, pushing: "You can push without me. You cannot push solutions or builds of fixes or solutions without me"
 - 2026-11-17, Reddit and TMZ: "You can use Reddit and TMZ you just have to face check them"
 - 2026-11-17, site requests: "When you want sites added give them to me in code formatting"
+- 2026-11-17, news sites: "My sites were an attempt to give you access to news. You can research reliable tech news sites, science news sites, health news study sites, geopolitical sites, whatever you need for information."
+- 2026-11-17, spin and conspiracy theories: "You are here to dig into problems, eliminate political spin and conspiracy theories... now notice I did not say to ignore spin or conspiracy theories. They need to sometimes be tested before discounted to see if maybe they were born from a small slice of truth that we need to pull and research more."
 
 ## Blocked
 

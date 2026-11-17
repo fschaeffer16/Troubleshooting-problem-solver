@@ -12,3 +12,5 @@ Every ruling Frank makes, dated, in his words.
 - On the allowed-sites list: "Also there is a limit on allowed websites so keep all of them listed and sorted in a separate place. For instance have a number of "baseline" sites that are your default lists of sites if that makes sense and when we hit the limit just swap them out and out then back as needed. Just make sure the running list is kept sorted and up to date"
 - On Reddit and TMZ as sources: "You can use Reddit and TMZ you just have to face check them"
 - On asking for sites to be added: "When you want sites added give them to me in code formatting"
+- On news sites: "My sites were an attempt to give you access to news. You can research reliable tech news sites, science news sites, health news study sites, geopolitical sites, whatever you need for information."
+- On spin and conspiracy theories: "You are here to dig into problems, eliminate political spin and conspiracy theories... now notice I did not say to ignore spin or conspiracy theories. They need to sometimes be tested before discounted to see if maybe they were born from a small slice of truth that we need to pull and research more."
