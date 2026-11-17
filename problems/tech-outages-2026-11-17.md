@@ -84,6 +84,26 @@ Observations, reasoning only:
 - On Nov 13 Mullin said zero evidence of an "SI attack." On Nov 16 he suggested AI could be partly to blame through a "ripple effect" (Fox). Those are different claims, attack versus accident, but his account moved.
 - On Nov 13 the NSA was "working with us" on the FAA event. On Nov 17 the NSA's own network was reported down, and Fox reports DHS is "not involved" in that. No evidence connects the two. Noted as a question, not a finding.
 
+### Frank's framing, 2026-11-17, and the first base rate check
+
+Frank's words: "Either these are normal and never reported or it is an awlful lot of coincidences"
+
+Frank also reported two items the thread has not verified: Apple now says its iCloud issue was caused by an internal update, and the National Weather Service says a 40-minute website outage today was caused by routine maintenance. Both: NOT CHECKED at the source.
+
+Checks run 2026-11-17 20:22 UTC:
+
+- Google, own Workspace incident list (https://www.google.com/appsstatus/dashboard/incidents.json). VERIFIED. 31 incidents listed, the first beginning 2025-11-24 and the last 2026-09-25. By month: Nov 2025 2, Dec 1, Jan 2026 3, Feb 2, Mar 2, Apr 5, May 6, Jun 3, Jul 0, Aug 3, Sep 4. None listed for October or November 2026.
+- So one large provider lists about 31 incidents in about 12 months for one product family. That is one data point for "normal and rarely reported." It covers one company only.
+- Apple, own status data, second read. VERIFIED. Nov 17: iCloud Account and Sign In issue, "All users are affected", ongoing. iCloud Mail and iCloud.com affected. App Store outage 08:45 to 12:00 PST, resolved. Apple Business, Apple School Manager and Schoolwork issues from 10:40 PST. The status data gives no cause. The words "internal update" are NOT FOUND there.
+- Apple, Nov 16: Volume Purchase Program outage, 10:06 to 11:23 PST, with the note "We performed routine maintenance."
+
+Reasoning, ASSUMPTION until tested:
+
+- The two options are not the only ones. A third: one rare event (a nationwide ground stop) drew attention, and common events that would normally go unreported were then gathered into one story. A fourth: the failures are separate but share a type of trigger, a change made to a live system.
+- Every stated cause so far is a change: router install (FAA, VERIFIED), scheduled maintenance (NSA, unnamed official), networking bug (Microsoft, per Fox), internal update (Apple, per Frank), routine maintenance (NWS, per Frank), software release (Chase, one news report).
+- Test for "normal": incident histories from each organization's own status pages for the past 12 months, counted per week, compared with this week.
+- Test for "shared trigger type": whether changes are the usual cause of outages in general, from an industry body's outage data, and whether mid-November is a heavy period for changes before holiday freezes.
+
 ### What officials say about a link, from the Fox live page
 
 - DHS Secretary Mullin, on Fox: suggested AI could be partly to blame, a "ripple effect." Also said there is "no cyber threat that's taking place."
@@ -149,6 +169,8 @@ Ranked by the evidence read so far. None is proven.
 - 2026-11-17 18:35 UTC: second round of shell downloads after Frank added six sites. Read: L3Harris statement, Apple status data, Google status data, House committee site. Refused (403): www.nsa.gov, www.jpmorganchase.com.
 
 - 2026-11-17: Frank pasted the DHS release text. One web search for a formal national emergency proclamation: none found.
+
+- 2026-11-17 20:22 UTC: counted Google's own incident list by month and re-read Apple's status data. Results under Facts.
 
 ## Options
 
