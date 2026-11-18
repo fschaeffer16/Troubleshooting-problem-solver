@@ -171,6 +171,12 @@ SEC. NOT CHECKED.
 - Company filings on cyber incidents since Nov 12: not read. The SEC reporting rule itself: not read.
 - Frank, 2026-11-18: "Skip the SEC test for now". The test stays on the list, parked.
 
+### Apple status, third read, 2026-11-18 06:23 UTC. VERIFIED
+
+- All Nov 17 events now show resolved. iCloud Account and Sign In, iCloud Mail and iCloud.com: 08:45 to 13:15 PST. App Store: 08:45 to 12:00 PST. Apple Business, Apple School Manager, Schoolwork: 10:40 to 14:00 PST. AppleCare on Device: 08:15 to 12:39 PST.
+- Apple's wording changed. During the outage, iCloud Account and Sign In read "All users are affected." After it, the same entry reads "Some users were affected."
+- Still no cause in the status data. "Internal update" is NOT FOUND there.
+
 ### What officials say about a link, from the Fox live page
 
 - DHS Secretary Mullin, on Fox: suggested AI could be partly to blame, a "ripple effect." Also said there is "no cyber threat that's taking place."
