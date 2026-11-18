@@ -203,6 +203,13 @@ SEC. NOT CHECKED.
 
 - Official pages needed, none on the allowed list: www.faa.gov, www.dhs.gov, status.cloud.microsoft, www.fbi.gov, www.cisa.gov. Approved by Frank 2026-11-17 ("Go"). Added by Frank 2026-11-17 and confirmed on the stored list. The running session still cannot open them.
 
+- https://www.foxbusiness.com/technology/cybersecurity-expert-sounds-alarm-over-us-infrastructure-vulnerabilities-amid-widespread-outages
+  - Handed over by Frank 2026-11-18.
+  - Why: blocked by the environment's network settings. www.foxbusiness.com is not on the allowed list. Shell download failed with a proxy 403 at 2026-11-18 07:56 UTC.
+  - Needed: who the expert is, what they claim, what evidence they cite, and whether they tie any outage to an intrusion.
+  - Use: add the claims to the list and check each against a source.
+  - One web search for the headline did not find the article. NOT FOUND in search.
+
 ## Causes considered
 
 Ranked by the evidence read through 2026-11-18 02:33 UTC. None is proven as the explanation for the whole cluster.
