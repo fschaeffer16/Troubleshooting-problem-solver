@@ -169,6 +169,7 @@ SEC. NOT CHECKED.
 
 - www.sec.gov answered with a page titled "Your Request Originates from an Undeclared Automated Tool" (403). The SEC wants automated tools to declare who they are. The thread did not supply an identity and did not retry.
 - Company filings on cyber incidents since Nov 12: not read. The SEC reporting rule itself: not read.
+- Frank, 2026-11-18: "Skip the SEC test for now". The test stays on the list, parked.
 
 ### What officials say about a link, from the Fox live page
 

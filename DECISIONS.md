@@ -16,3 +16,7 @@ Every ruling Frank makes, dated, in his words.
 - On spin and conspiracy theories: "You are here to dig into problems, eliminate political spin and conspiracy theories... now notice I did not say to ignore spin or conspiracy theories. They need to sometimes be tested before discounted to see if maybe they were born from a small slice of truth that we need to pull and research more."
 - On downloading pages through the shell: "You have my OK for shell downloads"
 - On removing the two duplicate entries and www.lingraphica.com from the allowed list: "Go on the list clean-up"
+
+## 2026-11-18
+
+- On checking SEC filings: "Skip the SEC test for now"
