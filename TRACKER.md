@@ -8,5 +8,5 @@ Each entry carries: the problem in one line, its file in problems/, status, the 
 
 - Tech outages reported 2026-11-17. File: problems/tech-outages-2026-11-17.md
   - Status: researching
-  - Next step: which banks had confirmed outages on Nov 16 and why; Microsoft's own account; NSA statement; the Nov 18 House hearing. Owner: the thread.
-  - Waiting on: Frank, for sources on the bank outages and the Apple and Weather Service cause statements, and for the approved allowed-list clean-up in the settings.
+  - Next step: test the patching explanation. Read the PHP project's own advisory and the CISA alert of 2026-10-21. Get each organization's own cause statement. Watch the Nov 18 House hearing, 10 a.m. ET. Owner: the thread.
+  - Waiting on: Frank, to add www.php.net, and for sources on the bank, Apple and Weather Service cause statements. Also the approved allowed-list clean-up in the settings.

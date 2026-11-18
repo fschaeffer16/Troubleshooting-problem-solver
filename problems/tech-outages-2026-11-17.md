@@ -119,6 +119,36 @@ Frank, 2026-11-17, on the bank outages: "It was more than Chase Bank"
 
 - Seen so far: an earlier search summary named Chase, Bank of America, Wells Fargo and Zelle user reports on Monday, and said Bank of America stated its systems were normal. EXCERPT. The Fox page names Chase and Schwab. Which banks had confirmed outages, from the banks themselves: NOT CHECKED.
 
+### Fourth round, 2026-11-18 02:33 UTC: CNN article re-read, CISA catalog read
+
+Frank sent the CNN link again. The article had changed since the first read. First read: updated Nov 17, 12:59 PM ET. Now: updated Nov 17, 7:14 PM ET.
+
+New in the CNN article (news report; the quotes are on the record but were read through CNN, not at the agencies):
+
+- NSA statement, Tuesday afternoon: "The National Security Agency experienced temporary degradation during scheduled routine maintenance." It says mission-critical capabilities remain operational.
+- Director of National Intelligence Jay Clayton, on Fox Business: the NSA outage was the result of applying a software patch for major vulnerabilities discovered last month. "The patching that has gone on following that has caused some of these systems to not come back up when you patch them as expected."
+- CNN: the vulnerabilities are in PHP. "AI tools helped researchers exploit them, setting off a scramble by government agencies and corporations around the world to address the issue in recent weeks. The NSA itself urged organizations to apply software patches."
+- Clayton: no sign that any of the recent outages were the result of a cyberattack.
+- A source told CNN restoration "was ongoing but not yet complete." The staff voicemail went from "code yellow" Tuesday morning to "code green" Tuesday evening.
+- The NSA's "scheduled routine maintenance" and the DNI's account, urgent patching that broke systems, describe the same event differently.
+
+CISA Known Exploited Vulnerabilities catalog. VERIFIED. Source: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json, catalog version 2026.11.17, 1,782 entries.
+
+- CVE-2026-109618, "PHP Memory Corruption Vulnerability", and CVE-2026-109619, "PHP Stale Internal Request-State Vulnerability". Both: "allows for unauthenticated remote code execution." Both added 2026-10-26, due 2026-10-29.
+- The entries note PHP is a component "that could be used by different products."
+- They link a CISA alert dated 2026-10-21 titled, from its address, "critical vulnerabilities php require immediate patching". That page refused the download (403). Not read.
+- Being in this catalog means CISA has evidence the flaw is being exploited. That is not evidence that any outage in this problem was an attack.
+- The three-day deadline is not unusual this year. Of 298 entries added in 2026, 159 have a three-day deadline. Median: 3 days.
+- Entries added per month: May 21, Jun 23, Jul 26, Aug 31, Sep 43, Oct 36, Nov 16 through the 17th.
+- Entries added in the three weeks before the outages include PHP (Oct 26), Linux Kernel (Oct 28), Cisco firewall software (Oct 29), WordPress Core (Nov 3), OpenSSH (Nov 9), Check Point (Nov 13).
+
+What this means, reasoning only:
+
+- There is now a candidate shared cause that is not an attack and not pure coincidence: many organizations patching the same widely used software, urgently, in the same weeks, and some patches breaking systems.
+- It is on the record for the NSA only. No source ties the PHP patching to Apple, the banks, Microsoft, the Weather Service or the FAA. The FAA's stated cause, a router install, is a different kind of change.
+- Secretary Mullin's "no cyber threat that's taking place" sits badly beside his own department's catalog, which lists actively exploited flaws that required patching within days. Both statements can be squared only if he meant that the outages themselves were not attacks.
+- His "ripple effect" remark about AI and self-fixing code may be a loose version of this: AI-assisted discovery of flaws, then rushed patches, then breakage. Not confirmed.
+
 ### What officials say about a link, from the Fox live page
 
 - DHS Secretary Mullin, on Fox: suggested AI could be partly to blame, a "ripple effect." Also said there is "no cyber threat that's taking place."
@@ -147,13 +177,16 @@ Frank, 2026-11-17, on the bank outages: "It was more than Chase Bank"
 
 ## Causes considered
 
-Ranked by the evidence read so far. None is proven.
+Ranked by the evidence read through 2026-11-18 02:33 UTC. None is proven as the explanation for the whole cluster.
 
-1. Separate failures that share a type of trigger: a change made to a live system. Evidence for: FAA page ties its failure to a new router install (VERIFIED). An unnamed official ties the NSA problem to scheduled maintenance (news report). Fox says Microsoft blamed a networking bug (news report). Evidence against: only one of these is confirmed at the source. Test: Microsoft's own incident report, an NSA statement, a JPMorgan Chase statement.
-2. Ordinary glitches counted as part of a wave. Evidence for: Marriott and Gmail rest on Downdetector user reports; Google's dashboard showed no disruption; Schwab described a brief page loading issue. Evidence against: Apple confirms its own outage on Nov 17 (VERIFIED), so iCloud is not in this group. Not tested against a normal week. Test: Apple and Google status pages, and how often such reports occur in a normal week.
-3. A shared technical cause, such as common equipment or a common vendor. Evidence for: none found. One lead: the FAA names Juniper routers and L3Harris. Whether either is involved in any other incident: NOT CHECKED. Test: vendor and equipment for each incident.
-4. A deliberate attack. Evidence for: none found. Evidence against: statements only, from the FAA, the White House and DHS, with no evidence shown. Test: CISA and FBI statements, the FAA and L3Harris root cause report, the Nov 18 House hearing.
-5. AI-written code changes causing failures, as Secretary Mullin suggested. Evidence for: his statement only. Evidence against: Duffy and Bedford are reported to say AI was not a factor at the FAA; Fox says Microsoft ruled it out. Test: the same incident reports.
+1. A shared upstream trigger: a wave of urgent security patching, set off by the PHP flaws of October 2026, breaking systems at separate organizations. Evidence for: DNI Clayton on the record for the NSA (via CNN). CISA catalog confirms the flaws, the dates and the urgency (VERIFIED). Stated causes elsewhere are also changes: Apple "internal update" and Weather Service "routine maintenance" (Frank's reports, not checked), Chase "software release" (one news report). Evidence against: no source ties any incident other than the NSA's to this patching. Test: each organization's own cause statement; whether the affected systems run PHP; the CISA alert of Oct 21; the Nov 18 House hearing.
+2. Separate failures that share only a type of trigger, a change to a live system, with no common upstream cause. Evidence for: FAA router install (VERIFIED), a different kind of change. Microsoft "networking bug dating back to July" (via Fox). Test: Microsoft's own incident report; FAA and L3Harris root cause report.
+3. Normal background outages, noticed because of one rare event. Evidence for: Google lists 31 incidents in 12 months; AWS had a Nov 15 outage that drew no coverage in the pages read. Evidence against: Apple's Nov 17 outage affected "All users"; AWS November pace slightly above recent months. Test: 12-month histories for more organizations.
+4. Shared equipment or vendor. Evidence for: none found. Leads: Juniper routers and L3Harris at the FAA. Test: vendor and equipment for each incident.
+5. A deliberate attack causing the outages. Evidence for: none found. The PHP flaws are being exploited somewhere, per CISA, but no source says an outage here was an intrusion. Evidence against: statements from the FAA, the White House, DHS and the DNI, with no evidence shown. Test: CISA and FBI statements, root cause reports, the House hearing.
+6. AI-written code changes, as Secretary Mullin suggested. Evidence for: his statement only. Possibly a loose account of explanation 1. Test: the same incident reports.
+
+Explanations 1, 2 and 3 can all be partly true at once. The FAA fits 2. The NSA fits 1. The small ones fit 3.
 
 ## Tests run
 
@@ -188,6 +221,8 @@ Ranked by the evidence read so far. None is proven.
 - 2026-11-17 20:22 UTC: counted Google's own incident list by month and re-read Apple's status data. Results under Facts.
 
 - 2026-11-17 20:24 UTC: third round of shell downloads after Frank added five sites. Read: White House actions page, AWS event list, Azure status history, Weather Service home and news pages. Refused (403): uptimeinstitute.com.
+
+- 2026-11-18 02:33 UTC: re-downloaded the CNN article (changed since first read). Read CISA's Known Exploited Vulnerabilities catalog. The CISA alert page of 2026-10-21 refused the download (403).
 
 ## Options
 

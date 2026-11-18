@@ -13,7 +13,7 @@ A problem solver for Frank. The rules are in CLAUDE.md. Read it first.
 
 ## Problems in progress
 
-- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Frank's position: "I don't believe all these outages are a coincidence". FAA Q&A, CNN article and Fox live page read. Causes ranked, none proven. L3Harris, Apple, Google and House committee sources also read. White House, AWS, Azure and Weather Service pages also read. No emergency proclamation found on the White House actions page. Next: the banks, Microsoft and NSA at their own sources (their sites refuse downloads), and the Nov 18 House hearing.
+- Tech outages reported 2026-11-17 (problems/tech-outages-2026-11-17.md). Frank's position: "I don't believe all these outages are a coincidence". Leading explanation as of 2026-11-18: a wave of urgent patching for PHP flaws (CISA catalog, added 2026-10-26) breaking systems. On the record for the NSA only. Read the Causes considered section for the full ranking and tests. CISA's catalog feed downloads; its web pages refuse downloads.
 
 ## Standing rulings
 
