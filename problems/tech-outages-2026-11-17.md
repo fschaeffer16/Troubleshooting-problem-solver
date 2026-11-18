@@ -201,6 +201,15 @@ The point stands: an attacker would hide it, so official denials and the look of
 - Sworn testimony at the Nov 18 House hearing.
 - Start times. A staged test would more likely show failures clustering in time or following one actor's pattern. Patch breakage follows each organization's own patch schedule.
 
+### Two more explanations from Frank, 2026-11-18
+
+Frank's words: "It could be a distraction tactic to hide something else." and "It could be them planting things in systems that have connections they are finding in each network"
+
+Added to the list as explanations 7 and 8. Who "them" is: not stated, asked.
+
+7. A distraction, to hide something else. Evidence for: none found. Evidence against: none found. What it predicts: something else of consequence happening Nov 12 to 18 that drew less notice. Test: needs a target. Without a guess at what is being hidden, the search has no end. Asked Frank.
+8. Intruders planting access in connected networks, with the outages as a side effect or as cover. Evidence for: the PHP flaws allow outsiders to run code and are being exploited (CISA, VERIFIED). Patching periods give cover. The FAA describes its failure as a flood of connection attempts, 1,000 every 4 to 5 seconds, which it attributes to a function on the new routers; the root cause is not final. Evidence against: planting access works best unnoticed, and outages draw attention. No source reports an intrusion. Test: the CISA "Forensics Triage Requirements" tied to the PHP entries, which tell agencies to look for signs of intrusion, and whatever comes of them; SEC filings; the FAA and L3Harris root cause report on the routers; CISA and FBI advisories.
+
 ## Tests run
 
 - 2026-11-17: tried to open the article. Failed, host not allowed.
