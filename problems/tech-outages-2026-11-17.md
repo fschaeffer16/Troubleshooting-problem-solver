@@ -149,6 +149,27 @@ What this means, reasoning only:
 - Secretary Mullin's "no cyber threat that's taking place" sits badly beside his own department's catalog, which lists actively exploited flaws that required patching within days. Both statements can be squared only if he meant that the outages themselves were not attacks.
 - His "ripple effect" remark about AI and self-fixing code may be a loose version of this: AI-assisted discovery of flaws, then rushed patches, then breakage. Not confirmed.
 
+### Fifth round, 2026-11-18 02:42 UTC: PHP project and SEC
+
+PHP project, own news archive (https://www.php.net/archive/2026.php). VERIFIED. Copy saved in problems/evidence/tech-outages-php-advisory-2026-10-21.txt.
+
+- 20 Oct 2026: advance notice of a security release for "two critical vulnerabilities, both rated CVSS v4.0 9.2."
+- 21 Oct 2026: "Security advisory: Critical remote code execution vulnerabilities, update now." Fixed in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. CVE-2026-109618 and CVE-2026-109619, the same two numbers as in the CISA catalog.
+- "Who is at risk: all PHP installations serving web requests." It describes "a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs."
+- Older versions 7.4, 8.0 and 8.1 got source backports "given the severity."
+- The stopgap measures require settings changes and "restart every worker."
+- The advisory does not mention AI.
+
+Timing, from the verified dates:
+
+- Fix released Oct 21. CISA catalog entry Oct 26, federal deadline Oct 29. Microsoft outage about Nov 12 to 14. FAA Nov 13. AWS Nov 15. Banks Nov 16. NSA and Apple Nov 17.
+- So the outages came three to four weeks after the fix was out, not in the days right after. That weakens explanation 1 for systems that patch quickly. It still fits slow-to-patch systems, such as a classified network, and the DNI says the NSA was patching on Nov 17.
+
+SEC. NOT CHECKED.
+
+- www.sec.gov answered with a page titled "Your Request Originates from an Undeclared Automated Tool" (403). The SEC wants automated tools to declare who they are. The thread did not supply an identity and did not retry.
+- Company filings on cyber incidents since Nov 12: not read. The SEC reporting rule itself: not read.
+
 ### What officials say about a link, from the Fox live page
 
 - DHS Secretary Mullin, on Fox: suggested AI could be partly to blame, a "ripple effect." Also said there is "no cyber threat that's taking place."
@@ -245,6 +266,8 @@ Added to the list as explanations 7 and 8. Who "them" is: not stated, asked.
 - 2026-11-17 20:24 UTC: third round of shell downloads after Frank added five sites. Read: White House actions page, AWS event list, Azure status history, Weather Service home and news pages. Refused (403): uptimeinstitute.com.
 
 - 2026-11-18 02:33 UTC: re-downloaded the CNN article (changed since first read). Read CISA's Known Exploited Vulnerabilities catalog. The CISA alert page of 2026-10-21 refused the download (403).
+
+- 2026-11-18 02:42 UTC: read the PHP project's news archive and change log. www.sec.gov refused the request as an undeclared automated tool.
 
 ## Options
 

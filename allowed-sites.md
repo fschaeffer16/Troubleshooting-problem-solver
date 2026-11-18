@@ -4,14 +4,14 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 
 - Baseline: a default site. If it comes off for a swap, it goes back on when that research ends.
 - Swap: a site allowed for one problem. It can come off when the list is full.
-- On now: 151 sites (125 baseline, 26 swap). The settings hold 154 entries because www.apple.com, www.pewresearch.org and www.whitehouse.gov are each entered twice.
+- On now: 153 sites (125 baseline, 28 swap). The settings hold 157 entries because www.apple.com, www.pewresearch.org, www.whitehouse.gov and www.php.net are each entered twice.
 
 ## Status
 
-- Last checked against the environment settings: 2026-11-17.
+- Last checked against the environment settings: 2026-11-18.
 - On now: 146 sites (125 baseline, 21 swap). The settings hold 148 entries because www.apple.com and www.pewresearch.org are each entered twice.
 - Wanted, not on: 0.
-- Cap: not checked. It is at least 154, the number of entries held now. It shows only in the settings screen. 120 was recorded earlier for the EZ Voice environment.
+- Cap: not checked. It is at least 157, the number of entries held now. It shows only in the settings screen. 120 was recorded earlier for the EZ Voice environment.
 - Baseline is every site that was on the list at the first read on 2026-11-17. That grouping is the thread's choice, open to change by Frank.
 
 ## Master list
@@ -122,6 +122,7 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | openai.com | baseline | yes | On the list before 2026-11-17 |
 | pecs.com | baseline | yes | On the list before 2026-11-17 |
 | www.pewresearch.org | baseline | yes | On the list before 2026-11-17 |
+| www.php.net | swap | yes | Tech outages problem. Added by Frank 2026-11-18 |
 | platform.openai.com | baseline | yes | On the list before 2026-11-17 |
 | play.google.com | baseline | yes | On the list before 2026-11-17 |
 | pmc.ncbi.nlm.nih.gov | baseline | yes | On the list before 2026-11-17 |
@@ -139,6 +140,7 @@ The master list for the "Default" cloud environment. Every site ever allowed sta
 | rtafleet.com | baseline | yes | On the list before 2026-11-17 |
 | www.safefleet.net | baseline | yes | On the list before 2026-11-17 |
 | www.samsung.com | baseline | yes | On the list before 2026-11-17 |
+| www.sec.gov | swap | yes | Tech outages problem. Added by Frank 2026-11-18. Refuses undeclared automated tools (403) |
 | www.smartboxaac.com | baseline | yes | On the list before 2026-11-17 |
 | smartboxaac.com | baseline | yes | On the list before 2026-11-17 |
 | speakforyourself.org | baseline | yes | On the list before 2026-11-17 |
@@ -204,3 +206,4 @@ Test: one request to the home page of each of the 140 sites, from the session's 
 - 2026-11-17: Frank added www.nsa.gov, www.l3harris.com, www.jpmorganchase.com, www.google.com, homeland.house.gov and www.ap.org. 148 entries, 146 unique. Confirmed by reading the settings.
 - 2026-11-17: Frank approved the clean-up ("Go on the list clean-up"): remove the duplicate entries of www.apple.com and www.pewresearch.org, and remove www.lingraphica.com. The thread's request to remove www.lingraphica.com was rejected by the environments service, no reason given. Nothing changed. This is the second rejection of a change sent by the thread. The clean-up is waiting for Frank to do it in the settings.
 - 2026-11-17: Frank added www.weather.gov, azure.status.microsoft, health.aws.amazon.com, uptimeinstitute.com and www.whitehouse.gov (entered twice). 154 entries, 151 unique. Confirmed by reading the settings. The approved clean-up is not done yet: www.lingraphica.com and the duplicates are still on the list.
+- 2026-11-18: Frank added www.sec.gov and www.php.net (entered twice). 157 entries, 153 unique. Confirmed by reading the settings. The approved clean-up is still not done.
