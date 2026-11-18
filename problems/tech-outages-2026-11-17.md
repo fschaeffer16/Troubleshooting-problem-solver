@@ -188,6 +188,19 @@ Ranked by the evidence read through 2026-11-18 02:33 UTC. None is proven as the 
 
 Explanations 1, 2 and 3 can all be partly true at once. The FAA fits 2. The NSA fits 1. The small ones fit 3.
 
+### Frank's question, 2026-11-18
+
+Frank's words: "If you were doing a test to precede a major cyber attack would you announce it or make it look like a bunch of unrelated coincidences?"
+
+The point stands: an attacker would hide it, so official denials and the look of coincidence do not rule out explanation 5. Real coincidences look the same, so the look alone does not support it either. What separates the two is evidence a hidden test would leave and an accident would not. Tests added:
+
+- SEC filings. Public companies must report material cybersecurity incidents to the SEC. Check JPMorgan Chase, Apple, Microsoft, Amazon and L3Harris filings since Nov 12. The rule and its deadline are from memory, to be confirmed at sec.gov. ASSUMPTION until read.
+- Technical root cause reports from the FAA and L3Harris, Microsoft and Amazon. Detail that outside engineers can check is hard to fake.
+- Whether the new Juniper routers at the FAA misbehaved by design, by fault, or by tampering. The FAA disabled a function on more than 60 of them.
+- CISA or FBI advisories that carry technical signs of intrusion tied to these dates.
+- Sworn testimony at the Nov 18 House hearing.
+- Start times. A staged test would more likely show failures clustering in time or following one actor's pattern. Patch breakage follows each organization's own patch schedule.
+
 ## Tests run
 
 - 2026-11-17: tried to open the article. Failed, host not allowed.
